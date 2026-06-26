@@ -162,3 +162,7 @@ label= "ADJ"                               ;
                 };
         };
 };
+
+&kscan0 {
+    wakeup-source;
+};

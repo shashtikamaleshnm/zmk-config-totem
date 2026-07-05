@@ -35,11 +35,6 @@
             key-positions = <18 19>;
         };
 
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 23>;
-        };
-
         combo_bracket_left {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <3 4>;
@@ -68,6 +63,11 @@
         combo_brace_right {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <26 27>;
+        };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
         };
     };
 

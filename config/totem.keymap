@@ -21,7 +21,49 @@
 #define ADJ  3
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <3 4>;
+        };
+
+        right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <5 6>;
+        };
+
+        left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <13 14>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <15 16>;
+        };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <24 25>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <26 27>;
+        };
+
+        quotes {
+            bindings = <&kp SQT>;
+            key-positions = <18 19>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";

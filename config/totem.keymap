@@ -96,10 +96,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-        &none            &none        &trans    &trans      &trans         &kp MINUS       &kp EQUAL      &none         &none                 &kp GRAVE
-&trans  &trans           &none        &trans    &trans      &trans         &kp UNDERSCORE  &kp PLUS       &none         &kp TILDE             &kp BACKSLASH          &kp PIPE
-                                      &trans    &trans      &trans         &trans          &trans         &trans
+                &kp EXCLAMATION  &kp AT_SIGN  &kp HASH      &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+                &kp GRAVE        &trans       &trans        &trans      &trans         &kp MINUS       &kp EQUAL      &trans             &trans                &kp BACKSLASH
+&kp LEFT_SHIFT  &kp TILDE        &trans       &trans        &trans      &trans         &kp UNDERSCORE  &kp PLUS       &trans             &trans                &kp PIPE               &kp BACKSPACE
+                                              &kp LEFT_GUI  &trans      &trans         &trans          &trans         &kp RIGHT_CONTROL
             >;
         };
 
